@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pdm"
+version = "1.0.0"
+description = "Predictive maintenance analytics for (synthetic) oil field rotating equipment"
+requires-python = ">=3.10"
+dependencies = ["numpy", "pandas", "scipy", "scikit-learn", "matplotlib", "seaborn", "pyarrow", "joblib"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

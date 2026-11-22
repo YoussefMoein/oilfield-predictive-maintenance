@@ -1,0 +1,105 @@
+{
+  "isolated_missing_values": 10380,
+  "dropout_blocks": [
+    {
+      "equipment_id": "CMP-002",
+      "sensor": "temperature_c",
+      "hours": 35
+    },
+    {
+      "equipment_id": "MTR-016",
+      "sensor": "vibration_mm_s",
+      "hours": 20
+    },
+    {
+      "equipment_id": "CMP-010",
+      "sensor": "temperature_c",
+      "hours": 32
+    },
+    {
+      "equipment_id": "MTR-005",
+      "sensor": "vibration_mm_s",
+      "hours": 23
+    },
+    {
+      "equipment_id": "CMP-002",
+      "sensor": "rotational_speed_rpm",
+      "hours": 45
+    },
+    {
+      "equipment_id": "PMP-015",
+      "sensor": "rotational_speed_rpm",
+      "hours": 46
+    },
+    {
+      "equipment_id": "PMP-002",
+      "sensor": "rotational_speed_rpm",
+      "hours": 16
+    },
+    {
+      "equipment_id": "PMP-009",
+      "sensor": "temperature_c",
+      "hours": 12
+    },
+    {
+      "equipment_id": "PMP-011",
+      "sensor": "pressure_kpa",
+      "hours": 8
+    },
+    {
+      "equipment_id": "MTR-010",
+      "sensor": "rotational_speed_rpm",
+      "hours": 36
+    },
+    {
+      "equipment_id": "MTR-003",
+      "sensor": "pressure_kpa",
+      "hours": 47
+    },
+    {
+      "equipment_id": "MTR-012",
+      "sensor": "pressure_kpa",
+      "hours": 45
+    },
+    {
+      "equipment_id": "PMP-013",
+      "sensor": "temperature_c",
+      "hours": 17
+    },
+    {
+      "equipment_id": "PMP-009",
+      "sensor": "vibration_mm_s",
+      "hours": 35
+    },
+    {
+      "equipment_id": "CMP-002",
+      "sensor": "vibration_mm_s",
+      "hours": 43
+    },
+    {
+      "equipment_id": "CMP-018",
+      "sensor": "temperature_c",
+      "hours": 30
+    },
+    {
+      "equipment_id": "CMP-010",
+      "sensor": "vibration_mm_s",
+      "hours": 29
+    },
+    {
+      "equipment_id": "CMP-019",
+      "sensor": "rotational_speed_rpm",
+      "hours": 39
+    }
+  ],
+  "temperature_sentinel_-999": 150,
+  "negative_pressure": 100,
+  "vibration_spikes_out_of_range": 120,
+  "equipment_type_mismatches": 40,
+  "operating_hours_counter_resets": [
+    "PMP-008",
+    "CMP-005"
+  ],
+  "duplicate_telemetry_rows": 300,
+  "duplicate_failure_records": 3
+}

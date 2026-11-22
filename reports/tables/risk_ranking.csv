@@ -1,0 +1,61 @@
+rank,equipment_id,equipment_type,area,last_reading,risk_score,risk_score_24h_ago,risk_score_change_24h,risk_category,relevant_sensor_trends,hours_since_last_maintenance,suggested_review_priority
+1,PMP-018,pump,Area North,2024-12-28 23:00:00,0.8818,0.8069,0.0749,High,"pressure 4.6 SD below unit baseline, falling vs last 7 days (-1.1 SD); vibration 2.1 SD above unit baseline, rising vs last 7 days (+0.8 SD)",868.0,Priority 1 - suggest reviewing first
+2,MTR-001,motor,Area South,2024-12-28 05:00:00,0.8167,0.8198,-0.0031,High,"pressure 6.6 SD below unit baseline, falling vs last 7 days (-1.5 SD); vibration 4.2 SD above unit baseline, rising vs last 7 days (+1.1 SD)",1451.0,Priority 1 - suggest reviewing first
+3,PMP-004,pump,Area South,2024-12-28 23:00:00,0.6049,0.2002,0.4047,High,"vibration 4.4 SD above unit baseline, rising vs last 7 days (+0.6 SD); temperature 1.8 SD above unit baseline, steady vs last 7 days (+0.3 SD)",2310.0,Priority 1 - suggest reviewing first
+4,CMP-017,compressor,Area South,2024-12-28 23:00:00,0.5464,0.6129,-0.0665,High,"pressure 8.0 SD below unit baseline, falling vs last 7 days (-1.1 SD)",2012.0,Priority 1 - suggest reviewing first
+5,CMP-012,compressor,Area South,2024-12-28 23:00:00,0.4047,0.3207,0.084,Medium,"pressure 4.1 SD below unit baseline, steady vs last 7 days (-0.5 SD)",1695.0,Priority 2 - suggest reviewing when scheduling allows
+6,PMP-012,pump,Area North,2024-12-28 23:00:00,0.3883,0.4401,-0.0518,Medium,"pressure 3.6 SD below unit baseline, steady vs last 7 days (-0.4 SD)",1737.0,Priority 2 - suggest reviewing when scheduling allows
+7,PMP-009,pump,Area Central,2024-12-28 23:00:00,0.3737,0.2274,0.1463,Medium,"pressure 2.2 SD below unit baseline, steady vs last 7 days (+0.0 SD); vibration 2.0 SD above unit baseline, steady vs last 7 days (+0.4 SD)",1361.0,Priority 2 - suggest reviewing when scheduling allows
+8,CMP-014,compressor,Area Central,2024-12-28 23:00:00,0.3391,0.3377,0.0014,Medium,"pressure 3.5 SD below unit baseline, steady vs last 7 days (-0.3 SD)",1458.0,Priority 2 - suggest reviewing when scheduling allows
+9,CMP-004,compressor,Area South,2024-12-28 23:00:00,0.3241,0.4265,-0.1024,Medium,"pressure 3.9 SD below unit baseline, falling vs last 7 days (-0.7 SD); vibration 1.7 SD above unit baseline, steady vs last 7 days (+0.1 SD)",1302.0,Priority 2 - suggest reviewing when scheduling allows
+10,MTR-015,motor,Area Central,2024-12-28 23:00:00,0.3136,0.3421,-0.0285,Medium,"vibration 2.1 SD above unit baseline, steady vs last 7 days (+0.1 SD); temperature 1.5 SD above unit baseline, steady vs last 7 days (+0.2 SD)",1594.0,Priority 2 - suggest reviewing when scheduling allows
+11,MTR-010,motor,Area North,2024-12-28 23:00:00,0.3047,0.12,0.1847,Medium,"vibration 3.6 SD above unit baseline, rising vs last 7 days (+0.6 SD)",2434.0,Priority 2 - suggest reviewing when scheduling allows
+12,PMP-006,pump,Area South,2024-12-28 23:00:00,0.2788,0.3107,-0.0319,Medium,"pressure 2.6 SD below unit baseline, steady vs last 7 days (+0.2 SD); vibration 1.2 SD above unit baseline, steady vs last 7 days (-0.3 SD)",1783.0,Priority 2 - suggest reviewing when scheduling allows
+13,CMP-018,compressor,Area South,2024-12-28 23:00:00,0.1807,0.0316,0.1491,Medium,"temperature 3.1 SD above unit baseline, rising vs last 7 days (+0.7 SD)",1483.0,Priority 2 - suggest reviewing when scheduling allows
+14,CMP-007,compressor,Area Central,2024-12-28 23:00:00,0.1737,0.1004,0.0733,Medium,"temperature 3.3 SD above unit baseline, rising vs last 7 days (+0.8 SD)",1199.0,Priority 2 - suggest reviewing when scheduling allows
+15,CMP-009,compressor,Area Central,2024-12-28 23:00:00,0.1153,0.1675,-0.0522,Low,"pressure 1.8 SD below unit baseline, rising vs last 7 days (+0.7 SD)",1596.0,Routine monitoring
+16,PMP-015,pump,Area Central,2024-12-28 23:00:00,0.0975,0.0446,0.0529,Low,"vibration 2.5 SD above unit baseline, steady vs last 7 days (+0.2 SD)",1804.0,Routine monitoring
+17,CMP-002,compressor,Area North,2024-12-28 23:00:00,0.0822,0.0936,-0.0114,Low,"pressure 2.7 SD below unit baseline, steady vs last 7 days (-0.2 SD)",918.0,Routine monitoring
+18,CMP-005,compressor,Area North,2024-12-28 23:00:00,0.0565,0.0523,0.0042,Low,no sensor more than 1 SD from unit baseline,902.0,Routine monitoring
+19,PMP-019,pump,Area South,2024-12-28 23:00:00,0.0492,0.0114,0.0378,Low,"pressure 1.9 SD below unit baseline, steady vs last 7 days (-0.1 SD); temperature 1.0 SD below unit baseline, steady vs last 7 days (-0.4 SD)",1417.0,Routine monitoring
+20,PMP-016,pump,Area South,2024-12-28 23:00:00,0.0477,0.0265,0.0212,Low,"vibration 2.1 SD above unit baseline, steady vs last 7 days (+0.1 SD); temperature 1.7 SD above unit baseline, rising vs last 7 days (+0.6 SD)",1647.0,Routine monitoring
+21,CMP-015,compressor,Area Central,2024-12-28 23:00:00,0.0374,0.0049,0.0325,Low,no sensor more than 1 SD from unit baseline,1575.0,Routine monitoring
+22,CMP-011,compressor,Area North,2024-12-28 23:00:00,0.0362,0.0525,-0.0163,Low,no sensor more than 1 SD from unit baseline,244.0,Routine monitoring
+23,PMP-003,pump,Area South,2024-12-28 23:00:00,0.0353,0.0201,0.0152,Low,"pressure 2.2 SD below unit baseline, steady vs last 7 days (-0.4 SD)",1275.0,Routine monitoring
+24,MTR-018,motor,Area North,2024-12-28 23:00:00,0.0334,0.0,0.0334,Low,no sensor more than 1 SD from unit baseline,1022.0,Routine monitoring
+25,PMP-013,pump,Area Central,2024-12-28 23:00:00,0.0303,0.0261,0.0042,Low,no sensor more than 1 SD from unit baseline,25.0,Routine monitoring
+26,PMP-011,pump,Area North,2024-12-28 23:00:00,0.0258,0.0046,0.0212,Low,no sensor more than 1 SD from unit baseline,581.0,Routine monitoring
+27,MTR-012,motor,Area Central,2024-12-28 23:00:00,0.0251,0.0132,0.0119,Low,no sensor more than 1 SD from unit baseline,993.0,Routine monitoring
+28,CMP-013,compressor,Area North,2024-12-28 23:00:00,0.019,0.0,0.019,Low,no sensor more than 1 SD from unit baseline,696.0,Routine monitoring
+29,CMP-019,compressor,Area South,2024-12-28 23:00:00,0.0172,0.046,-0.0288,Low,"pressure 1.5 SD below unit baseline, steady vs last 7 days (-0.2 SD)",2011.0,Routine monitoring
+30,CMP-001,compressor,Area North,2024-12-28 23:00:00,0.0166,0.0074,0.0092,Low,"vibration 2.4 SD above unit baseline, rising vs last 7 days (+0.7 SD)",893.0,Routine monitoring
+31,MTR-003,motor,Area South,2024-12-28 23:00:00,0.0161,0.0121,0.004,Low,"vibration 1.2 SD above unit baseline, steady vs last 7 days (+0.4 SD)",417.0,Routine monitoring
+32,PMP-010,pump,Area Central,2024-12-28 23:00:00,0.0149,0.0149,0.0,Low,"temperature 3.2 SD above unit baseline, rising vs last 7 days (+0.7 SD)",1529.0,Routine monitoring
+33,CMP-020,compressor,Area South,2024-12-28 23:00:00,0.0146,0.0027,0.0119,Low,"pressure 1.4 SD below unit baseline, steady vs last 7 days (-0.4 SD)",1207.0,Routine monitoring
+34,CMP-006,compressor,Area North,2024-12-28 23:00:00,0.0128,0.0093,0.0035,Low,no sensor more than 1 SD from unit baseline,275.0,Routine monitoring
+35,MTR-002,motor,Area Central,2024-12-28 23:00:00,0.0106,0.0,0.0106,Low,no sensor more than 1 SD from unit baseline,293.0,Routine monitoring
+36,PMP-007,pump,Area South,2024-12-28 23:00:00,0.0087,0.0127,-0.004,Low,no sensor more than 1 SD from unit baseline,195.0,Routine monitoring
+37,CMP-010,compressor,Area Central,2024-12-28 23:00:00,0.0074,0.0,0.0074,Low,no sensor more than 1 SD from unit baseline,922.0,Routine monitoring
+38,MTR-011,motor,Area South,2024-12-28 23:00:00,0.0069,0.0286,-0.0217,Low,no sensor more than 1 SD from unit baseline,1372.0,Routine monitoring
+39,MTR-017,motor,Area Central,2024-12-28 23:00:00,0.0067,0.0,0.0067,Low,no sensor more than 1 SD from unit baseline,578.0,Routine monitoring
+40,MTR-005,motor,Area North,2024-12-28 23:00:00,0.0055,0.0164,-0.0109,Low,"temperature 1.8 SD above unit baseline, steady vs last 7 days (+0.4 SD)",996.0,Routine monitoring
+41,MTR-016,motor,Area South,2024-12-28 23:00:00,0.0048,0.0203,-0.0155,Low,no sensor more than 1 SD from unit baseline,1206.0,Routine monitoring
+42,MTR-019,motor,Area South,2024-12-28 23:00:00,0.0048,0.004,0.0008,Low,no sensor more than 1 SD from unit baseline,944.0,Routine monitoring
+43,MTR-006,motor,Area Central,2024-12-28 23:00:00,0.0046,0.0082,-0.0036,Low,no sensor more than 1 SD from unit baseline,975.0,Routine monitoring
+44,PMP-008,pump,Area North,2024-12-28 23:00:00,0.0046,0.024,-0.0194,Low,"temperature 1.3 SD below unit baseline, falling vs last 7 days (-0.7 SD)",107.0,Routine monitoring
+45,PMP-002,pump,Area South,2024-12-28 23:00:00,0.0043,0.0,0.0043,Low,no sensor more than 1 SD from unit baseline,982.0,Routine monitoring
+46,CMP-008,compressor,Area South,2024-12-28 23:00:00,0.0033,0.0087,-0.0054,Low,"pressure 1.0 SD below unit baseline, steady vs last 7 days (-0.3 SD)",988.0,Routine monitoring
+47,CMP-016,compressor,Area Central,2024-12-28 23:00:00,0.0029,0.0029,0.0,Low,no sensor more than 1 SD from unit baseline,845.0,Routine monitoring
+48,MTR-013,motor,Area South,2024-12-28 23:00:00,0.0027,0.0026,0.0001,Low,"temperature 1.2 SD above unit baseline, rising vs last 7 days (+0.5 SD)",1036.0,Routine monitoring
+49,CMP-003,compressor,Area North,2024-12-28 23:00:00,0.0,0.0,0.0,Low,no sensor more than 1 SD from unit baseline,459.0,Routine monitoring
+50,MTR-004,motor,Area North,2024-12-28 23:00:00,0.0,0.0,0.0,Low,no sensor more than 1 SD from unit baseline,840.0,Routine monitoring
+51,MTR-007,motor,Area South,2024-12-28 23:00:00,0.0,0.0081,-0.0081,Low,no sensor more than 1 SD from unit baseline,946.0,Routine monitoring
+52,MTR-008,motor,Area South,2024-12-28 23:00:00,0.0,0.0,0.0,Low,no sensor more than 1 SD from unit baseline,308.0,Routine monitoring
+53,MTR-009,motor,Area South,2024-12-28 23:00:00,0.0,0.0,0.0,Low,no sensor more than 1 SD from unit baseline,989.0,Routine monitoring
+54,MTR-020,motor,Area North,2024-12-28 23:00:00,0.0,0.0081,-0.0081,Low,no sensor more than 1 SD from unit baseline,812.0,Routine monitoring
+55,PMP-001,pump,Area Central,2024-12-28 23:00:00,0.0,0.0044,-0.0044,Low,no sensor more than 1 SD from unit baseline,1275.0,Routine monitoring
+56,PMP-005,pump,Area South,2024-12-28 23:00:00,0.0,0.0,0.0,Low,no sensor more than 1 SD from unit baseline,446.0,Routine monitoring
+57,PMP-014,pump,Area South,2024-12-28 23:00:00,0.0,0.004,-0.004,Low,no sensor more than 1 SD from unit baseline,833.0,Routine monitoring
+58,PMP-017,pump,Area South,2024-12-28 23:00:00,0.0,0.004,-0.004,Low,no sensor more than 1 SD from unit baseline,1206.0,Routine monitoring
+59,PMP-020,pump,Area Central,2024-12-28 23:00:00,0.0,0.0,0.0,Low,no sensor more than 1 SD from unit baseline,625.0,Routine monitoring
+60,MTR-014,motor,Area South,2024-12-26 01:00:00,0.7384,0.7384,0.0,No current data,"vibration 2.2 SD above unit baseline, rising vs last 7 days (+1.0 SD); temperature 1.9 SD above unit baseline, rising vs last 7 days (+0.6 SD)",920.0,Not ranked - no recent readings

@@ -1,0 +1,5 @@
+next_failure_mode,positive_rows,flagged_rows,row_recall,failures,failures_flagged,event_recall
+bearing_wear,1512,704,0.4656084656084656,21,18,0.8571428571428571
+overheating,432,203,0.4699074074074074,6,5,0.8333333333333334
+pressure_loss,624,439,0.7035256410256411,8,8,1.0
+sudden_no_precursor,216,0,0.0,3,0,0.0
